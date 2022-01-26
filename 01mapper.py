@@ -1,4 +1,6 @@
-f = open("purchases.txt","r")  # open file, read-only
+# Alekya Billakanti
+# this is a example map sample program
+f = open("purchase.txt","r")  # open file, read-only
 o = open("out01.txt", "w") # open file, write
 for line in f:  
     rowList = line.strip().split("    ") 
